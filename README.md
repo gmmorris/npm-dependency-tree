@@ -28,3 +28,11 @@ To see the actual test results you'll want to run `npm t` in the specific packag
 cd ./packages/npm-depenendency-tree-viewer
 npm t
 ```
+
+## How to run the project
+One you clone the repo, just install the dependencies and start the project.
+```sh
+cd ./snyk-npm-dependencies
+npm i
+npm start
+```
