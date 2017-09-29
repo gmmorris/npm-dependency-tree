@@ -1,0 +1,11 @@
+{
+  "name": "snyk-npm-dependencies",
+  "version": "1.0.0",
+  "description": "Interview exercise for Snyk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gidi Morris",
+  "license": "ISC"
+}
