@@ -1,0 +1,33 @@
+
+.module-list.module-tree {
+  padding: 2em;
+  margin: 0;
+  list-style: none;
+  line-height: 1.5em;
+}
+
+.module-list {
+  padding-left: 0px;
+  list-style: none;
+}
+
+.module-list > strong {
+  color: #a9c8e8;
+}
+
+.module-list em {
+  color: #A061BB;
+  padding-left: 0.5em;
+}
+
+.module-list > li > div {
+  padding-bottom: 1em;
+}
+
+.list-item-icon {
+  width: 1em;
+  height: 1em;
+  margin: 0px 0.2em;
+  vertical-align: middle;
+  cursor: pointer;
+}

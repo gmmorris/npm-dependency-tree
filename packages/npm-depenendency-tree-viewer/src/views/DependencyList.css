@@ -1,0 +1,14 @@
+.dep-list {
+  list-style: none;
+  margin-bottom: 10px;
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+  margin-left: 1em;
+  padding-left: 1em;
+}
+
+.dep-list li {
+  background: #243a50;
+  position: relative;
+  bottom: -5px;
+}

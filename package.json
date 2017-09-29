@@ -4,12 +4,13 @@
   "description": "Interview exercise for Snyk",
   "main": "index.js",
   "scripts": {
-    "start":"lerna bootstrap && lerna run start",
-    "test":"lerna bootstrap && lerna run test"
+    "start": "lerna bootstrap && lerna run start",
+    "test": "lerna bootstrap && lerna run test"
   },
   "author": "Gidi Morris",
   "license": "ISC",
   "devDependencies": {
+    "create-react-app": "^1.4.1",
     "lerna": "^2.2.0"
   }
 }

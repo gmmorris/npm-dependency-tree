@@ -1,0 +1,39 @@
+body {
+  text-align: left;
+  background: #243a50;
+  color:#709BC7;
+}
+
+form {
+  padding: 1em;
+}
+form div {
+  
+  padding: 0.2em;
+  border: 2px solid #709BC7;
+  display: block;
+  border-radius: 0.5em;
+  width: 240px;
+  margin-bottom: 1em;  
+}
+form input {
+  height: 1em;
+  padding: 1em;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background: inherit;
+  font-size: 0.8em;
+}
+
+.App-header {
+  background-color: #222;
+  height: 50px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+  padding: 0em 1em;
+}

@@ -26,6 +26,6 @@ server.get('/:npmModule', function (req, res, next) {
     .then(next);
 });
 
-server.listen(8030, function () {
+server.listen(8050, function () {
   console.log('%s listening at %s', server.name, server.url);
 });
