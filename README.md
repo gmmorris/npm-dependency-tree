@@ -9,6 +9,9 @@ It's not quite my best work, as I just threw it together, but the broad idea is 
   * You can drill deep into the dependencies of each dependency as you inspect a module.
   * The two projects are stitched together using Lerna which I;ve used for many mono-repo projects and allows you to interact with multiple packages at one.
 
+
+![Web App](./ui.gif)
+
 ## Scripts
 
 ### `npm start`
