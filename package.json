@@ -4,8 +4,12 @@
   "description": "Interview exercise for Snyk",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"lerna bootstrap && lerna run start",
+    "test":"lerna bootstrap && lerna run test"
   },
   "author": "Gidi Morris",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^2.2.0"
+  }
 }

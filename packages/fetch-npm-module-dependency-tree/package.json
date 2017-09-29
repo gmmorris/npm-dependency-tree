@@ -1,0 +1,22 @@
+{
+  "name": "fetch-npm-module-dependency-tree",
+  "version": "1.0.0",
+  "description": "HTTP API for fetching NPM Module's dependencies",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "author": "Gidi Morris",
+  "license": "ISC",
+  "dependencies": {
+    "fast-memoize": "^2.2.8",
+    "lodash.pick": "^4.4.0",
+    "monet": "^0.8.10",
+    "node-fetch": "^1.7.3",
+    "restify": "^5.2.0"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
+}
