@@ -1,5 +1,5 @@
 {
-  "name": "snyk-npm-dependencies",
+  "name": "npm-dependency-tree",
   "version": "1.0.0",
   "description": "Interview exercise for Snyk",
   "main": "index.js",

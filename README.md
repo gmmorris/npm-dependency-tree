@@ -32,7 +32,7 @@ npm t
 ## How to run the project
 One you clone the repo, just install the dependencies and start the project.
 ```sh
-cd ./snyk-npm-dependencies
+cd ./npm-dependency-tree
 npm i
 npm start
 ```
