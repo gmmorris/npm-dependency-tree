@@ -1,14 +1,14 @@
 {
   "name": "npm-dependency-tree",
   "version": "1.0.0",
-  "description": "Interview exercise for Snyk",
+  "description": "Example app in React & Restify",
   "main": "index.js",
   "scripts": {
     "start": "lerna bootstrap && lerna run start",
     "test": "lerna bootstrap && lerna run test"
   },
   "author": "Gidi Morris",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "create-react-app": "^1.4.1",
     "lerna": "^2.2.0"
