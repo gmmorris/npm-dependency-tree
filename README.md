@@ -1,13 +1,11 @@
-Hi :)
+An example app for teaching purposes - React & Restify
 
-I've put this project together in a few hours as a submission for the interview.
-
-It's not quite my best work, as I just threw it together, but the broad idea is this:
-  * There is a Restify based service which spwans a GET endpoint on port 8050 and fetches the NPM module's dependencies.
+The broad idea is this:
+  * There is a Restify based service which serves a GET endpoint on port 8050 and fetches the NPM module's dependencies.
   * There is very basic caching in the service using memoization. This means cache is limitted to a single Node instance and run... not ideal, but hey, we're all about minimum steps to value, right?
-  * There is a basic React web app (with very basic tests... time constraints and all) which fetches the specified module depenencies using the service.
+  * There is a basic React web app which fetches the specified module depenencies using the service.
   * You can drill deep into the dependencies of each dependency as you inspect a module.
-  * The two projects are stitched together using Lerna which I;ve used for many mono-repo projects and allows you to interact with multiple packages at one.
+  * The two projects are stitched together using Lerna which allows you to interact with multiple packages at one.
 
 
 ![Web App](./ui.gif)
